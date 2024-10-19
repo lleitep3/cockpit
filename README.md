@@ -43,17 +43,29 @@ cockpit
 
 ---
 
+## Starting the project
+
+```shell
+pnpm run start
+```
+
+---
+
 ## About the commands
 
 As a first propose I'm creating some configuration commnads to setup and maintain my machine,
 after that maybe some development tools like project generators, to speed up my "project start".
 
+---
+
 ## TODO:
 
+- [ ] add tests
 - [x] configure vim
   - [x] it should backup old file
   - [x] it should manage old files
   - [x] it should create a new file
+- [x] a command to create a new command structure
 - [-] configure my personal terminal
   - [ ] it should install oh-my-zsh
   - [ ] it should install terminator
