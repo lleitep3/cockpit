@@ -25,9 +25,10 @@ cockpit
 │   │   │   ├── .vimrc                  # this file will replace the current one
 │   │   │   └── configure-vim.prompt.ts # the command
 │   │   │
-│   │   ├── git-status.prompt.ts   # example prompt
-│   │   ├── ls-command.prompt.ts   # example prompt
-│   │   └── ping-command.prompt.ts # example prompt
+│   │   └── examples            # example prompt
+│   │       ├── git-status.prompt.ts   # example prompt
+│   │       ├── ls-command.prompt.ts   # example prompt
+│   │       └── ping-command.prompt.ts # example prompt
 │   │
 │   ├── helpers
 │   │   ├── exec-command-sync.ts  # runs a shell command sync and returns the command output

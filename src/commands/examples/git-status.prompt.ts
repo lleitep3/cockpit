@@ -1,4 +1,4 @@
-import { execCommand } from '../helpers/exec-command';
+import { execCommand } from '../../helpers/exec-command';
 
 export const COMMAND_NAME = 'Rodar um git status';
 
