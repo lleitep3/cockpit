@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "target": "ESNext", // Mantenha o alvo compatível com as versões modernas do Node.js
+    "module": "ESNext", // Use ESNext para suportar ES Modules
+    "esModuleInterop": true, // Facilita a interoperabilidade com módulos CommonJS
+    "forceConsistentCasingInFileNames": true, // Garante consistência em nomes de arquivos
+    "strict": true, // Ativar verificação de tipo estrito
+    "noImplicitAny": true, // Impede tipos implícitos 'any'
+    "skipLibCheck": true, // Ignorar checagem de tipos de bibliotecas para melhorar a performance
+    "moduleResolution": "Node",
+    "resolveJsonModule": true, // Permite a importação de arquivos JSON
+    "baseUrl": "./",
+    "paths": {
+      "@/*": [
+        "./src/*"
+      ]
+    }
+  },
+  "include": [
+    "src/**/*.ts",
+  ],
+  "exclude": [
+    "node_modules", // Excluir a pasta node_modules
+    "**/*.spec.ts" // Excluir arquivos de teste, se você tiver
+  ]
+}

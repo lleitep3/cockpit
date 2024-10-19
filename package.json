@@ -1,0 +1,35 @@
+{
+  "name": "cockpit",
+  "version": "1.0.0",
+  "description": "A bunch of commands to configure my personal environment.",
+  "type": "module",
+  "scripts": {
+    "start": "NODE_OPTIONS='--experimental-specifier-resolution=node --import=tsx' node src/main.ts",
+    "dev": "nodemon --exec \"NODE_OPTIONS='--experimental-specifier-resolution=node --import=tsx' node src/main.ts\"",
+    "test": "NODE_OPTIONS='--experimental-specifier-resolution=node --import=tsx' node --test tests/*.test.ts"
+  },
+  "keywords": [],
+  "author": "@lleitep3",
+  "license": "ISC",
+  "devDependencies": {
+    "@eslint/js": "^9.13.0",
+    "@types/eslint__js": "^8.42.3",
+    "@types/pino": "^7.0.5",
+    "eslint": "9.13.0",
+    "nodemon": "^3.1.7",
+    "pino-pretty": "^11.3.0",
+    "ts-node": "^10.9.2",
+    "tsconfig-paths": "^4.2.0",
+    "tsx": "^4.19.1",
+    "typescript": "^5.6.3",
+    "typescript-eslint": "^8.10.0"
+  },
+  "dependencies": {
+    "@inquirer/prompts": "^7.0.0",
+    "@types/glob": "^8.1.0",
+    "@types/inquirer": "^9.0.7",
+    "@types/node": "^22.7.7",
+    "glob": "^11.0.0",
+    "pino": "^9.5.0"
+  }
+}
